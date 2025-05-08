@@ -1,14 +1,19 @@
 body{
   background-color: rgb(250, 204, 211);
+}
+
+.two-by-two-grid{
   display: grid;
-  place-items: center;
-  height: 100vh;
-  margin: 0;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-template-rows: auto auto; /* 2 rows */
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
 }
 
 img{
   width: 300px; 
-  height: 500px;
+  height: 400px;
 }
 
 article{
